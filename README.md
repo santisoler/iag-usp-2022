@@ -1,33 +1,20 @@
-# Title
+# My title
 
-Slides for the presentation I gave at [IAG][iag]/[USP][usp] on 2022 as invited speaker.
+by [Santiago Soler](https://www.santisoler.com)
 
-This template uses [reveal.js](https://revealjs.com/) for creating nice looking
-slides by only editing a Markdown file, with some html syntax for adding some
-cool stuff, like columns, fade-in animations, footnotes and more.
+**Slides:** https://www.santisoler.com/iag-usp-2022
 
-## Content
+**Recording:** Coming soon...
 
-The template contains the following files and directories:
-
-- `slides.md`: Markdown file with the content of the slides.
-- `style.less`: define custom CSS classes using [less](http://lesscss.org/).
-- `index.html`: HTML file that can be served to show the slides, also contains
-  the configurations for reveal.js.
-
-All the dependencies for build the slides are included in the repo so you can
-serve them even without internet connection.
-- The `reveal.js` directory contains the source files for running
-  [reveal.js](https://revealjs.com).
-- The `less` directory contains the sources for running
-  [less](https://lesscss.org/).
-- The `css/fontawesome` directory stores the
-  [fontawesome](https://fontawesome.com/) icons.
-- The `katex` directory has the sources for [KaTeX](https://katex.org/), a math
-  typesetting library for the web.
+Presentation for the [IAG](https://www.iag.usp.br/)/[USP](https://www5.usp.br/)
+on 2022-05-19 as an invited speaker.
 
 
 ## Serving the slides
+
+These slides were built using [reveal.js](https://revealjs.com/).
+Sadly, we cannot open the index.html file in a browser to see them, we need to
+run a local web server instead.
 
 Install [livereload](https://github.com/lepture/python-livereload):
 
@@ -41,13 +28,25 @@ or
 conda install livereload -c conda-forge
 ```
 
-Use `make serve` to start a server at `http://localhost:8000`. The page will
+Then start a local webserver by running:
+
+```
+python serve.py
+```
+
+Open `http://localhost:8000` in your browser to see the slides. The page will
 automatically reload the page when you update any of the files in the
 repository.
 
+## Acknowledgements
+
+These slides are built upon the
+[`talk-template`](https://github.com/santisoler/talk-template), which is
+inspired on [Leonardo Uieda](https://www.leouieda.com)'s
+[`talk-template`](https://github.com/leouieda/talk-template).
 
 ## License
 
-The content of the slides (`slides.md`) and their custom configurations
-(`index.html`, and `css/style.less`) are licensed under a Creative Commons
-Attribution 4.0 International License.
+The content of the slides (`slides.md`, `images/`) and the slides
+configurations (`serve.py`, `index.html`, and `css/style.less`) are licensed
+under a Creative Commons Attribution 4.0 International License.
