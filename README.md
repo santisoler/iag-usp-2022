@@ -1,4 +1,6 @@
-# Template for creating slides using reveal.js
+# Title
+
+Slides for the presentation I gave at [IAG][iag]/[USP][usp] on 2022 as invited speaker.
 
 This template uses [reveal.js](https://revealjs.com/) for creating nice looking
 slides by only editing a Markdown file, with some html syntax for adding some
@@ -43,13 +45,9 @@ Use `make serve` to start a server at `http://localhost:8000`. The page will
 automatically reload the page when you update any of the files in the
 repository.
 
-## Acknowledgements
-
-This template is based on the
-[`talk-template`](https://github.com/leouieda/talk-template) created by
-[Leonardo Uieda](https://www.leouieda.com).
 
 ## License
 
-The template (`slides.md`, `index.html`, and `css/style.less`) is licensed under
-a Creative Commons Attribution 4.0 International License.
+The content of the slides (`slides.md`) and their custom configurations
+(`index.html`, and `css/style.less`) are licensed under a Creative Commons
+Attribution 4.0 International License.
