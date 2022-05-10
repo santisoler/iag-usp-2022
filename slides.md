@@ -208,7 +208,7 @@ Source: [jornadasdefisica.wordpress.com](https://jornadasdefisica.wordpress.com/
 
 <!-- .slide: data-background-color="#1e1e1e"  -->
 
-### 🖥️Mounted our own computer lab 🪛
+### 🖥️  Mounted our own computer lab 🪛
 
 <img src="images/felix-2014.jpg" style="width: 65%">
 
