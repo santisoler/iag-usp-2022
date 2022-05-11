@@ -1,6 +1,6 @@
 <!-- .slide: class="slide-title" -->
 
-# Title
+# Empowering science with open-source software
 
 ## [Santiago Soler](https://www.santisoler.com)
 
