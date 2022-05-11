@@ -238,6 +238,10 @@ Explore outside the curriculum,
 shape your environment,
 </h1>
 
+<h1 class="fragment" style="margin-bottom: 100px;">
+do it in community,
+</h1>
+
 <h1 class="fragment">
 ...and have fun! <span style="text-shadow: 2px 2px white">🤓</span>
 </h1>
