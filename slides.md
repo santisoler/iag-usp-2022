@@ -1,42 +1,92 @@
-<!-- .slide: class="slide-title" -->
+<!-- .slide: class="slide-title" data-background-color="#1e1e1e" -->
+
+<div class="title">
 
 # Empowering science with open-source software
 
-## [Santiago Soler](https://www.santisoler.com)
+## by Santiago Soler
 
-[*CONICET, Argentina*](https://www.conicet.gov.ar/)
-<br>
-[*Instituto Geofísico y Sismológico Volponi, UNSJ, Argentina*](http://igsv.unsj.edu.ar/)
-<br>
-[*Computer-Oriented Geoscience Lab*](https://www.compgeolab.org/)
+<hr>
 
-<div class="container logos">
-<div class="logo">
-<a href="https://www.conicet.gov.ar/">
-<img src="images/logos/conicet.svg">
+<i class="fas fa-university"></i>
+Instituto de Astronomia, Geofísica e Ciências Atmosféricas, USP
+
+<i class="fas fa-calendar-alt"></i> 19 May 2022
+
+<p style="margin-top: 3rem">
+<a href="https://www.santisoler.com">
+<i class="fas fa-globe"></i>
+www.santisoler.com
 </a>
-</div>
-<div class="logo">
-<a href="http://igsv.unsj.edu.ar/">
-<img src="images/logos/igsv.svg">
+</p>
+
+<p>
+<a href="https://github.com/santisoler">
+<i class="fab fa-github"></i>
+@santisoler
 </a>
+</p>
+
+<p>
+<a href="https://twitter.com/santirsoler">
+<i class="fab fa-twitter"></i>
+@santirsoler
+</a>
+</p>
+
+<p>
+<a href="https://scicomm.xyz/@santisoler">
+<i class="fab fa-mastodon"></i>
+@santisoler@scicomm.xyz
+</a>
+</p>
+
 </div>
-<div class="logo">
+
+<div class="r-stretch">
+</div>
+
+<!-- Bottom divs -->
+<div class="flex flex-row justify-space-between">
+
+
+<!-- Left div -->
+<div class="flex flex-row">
+
+<img src="images/slides-qr.svg" style="width: 10vw;">
+
+<!-- Links to slides -->
+<div style="margin-left: 2rem;">
+<p>
+<i class="fas fa-chalkboard"></i>
+Slides: <a href="https://santisoler.com/iag-usp-2022">
+santisoler.com/iag-usp-2022
+</a>
+</p>
+<p>
+<i class="fas fa-camera"></i>
+Feel free to screenshot, share and reuse this presentation
+</p>
+<p>
+<i class="fab fa-creative-commons"></i>
+<i class="fab fa-creative-commons-by"></i>
+CC-BY
+</p>
+</div>
+</div>
+
+<!-- Compgeolab figure -->
+<div class="flex flex-row align-end ">
 <a href="https://www.compgeolab.org/">
-<img src="images/logos/compgeolab.svg">
+<img src="images/compgeolab-banner-light.svg" style="width: 40vw;">
 </a>
 </div>
+
 </div>
-
-- Creative commons
-- When?
-- Where?
-- Social media links
-
 
 ---
 
-# A brief introduction...
+## A brief introduction...
 
 <div class="container">
 
@@ -47,7 +97,7 @@
 
 <div class="col-2">
 
-<div class="centered">
+<div class="column v-centered">
 
 <ul>
 <li class="fragment fade-in">Physicist 👨🏼‍🔬</li>
@@ -95,7 +145,7 @@
 
 ---
 
-<!-- .slide: data-background-color="#1e1e1e" data-auto-animate -->
+<!-- .slide: data-auto-animate -->
 
 # Licentiate in Physics 🍎
 
@@ -120,7 +170,7 @@
 
 <!-- .slide: data-background-color="#1e1e1e" data-background-image="images/plasma.jpg" -->
 
-<h3 style="padding-top: 10vh;">
+<h3 style="padding-top: 1.8em;">
 ...cool experiments...
 </h3>
 

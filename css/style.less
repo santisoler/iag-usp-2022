@@ -15,7 +15,7 @@
 // Define some variables for font sizes and colors
 // -----------------------------------------------
 @base_font_size: 64px;
-@h1_font_size: 2em;
+@h1_font_size: 1.8em;
 @h2_font_size: 1.5em;
 @h3_font_size: 1.2em;
 @h4_font_size: 1em;
@@ -91,11 +91,57 @@
     flex-direction: column;
   }
 
+  // --------------------------
+  // Custom classes for flexbox
+  // --------------------------
+
+  .flex {
+    display: flex;
+  }
+
+  .justify-start {
+    justify-content: flex-start;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .justify-end {
+    justify-content: flex-end;
+  }
+
+  .justify-space-between {
+    justify-content: space-between;
+  }
+
+  .align-start {
+    align-items: start;
+  }
+
+  .align-center {
+    align-items: center;
+  }
+
+  .align-end {
+    align-items: end;
+  }
+
+  .flex-column {
+    flex-direction: column;
+  }
+
+  .flex-row {
+    flex-direction: row;
+  }
+
   // -------------
   // Custom slides
   // -------------
 
   .slide-title {
+    text-align: left;
+
     a {
       color: @main_color;
     }
@@ -104,20 +150,29 @@
       color: @link_hover_color;
     }
 
-    .logos {
-      margin: 0 2%;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0 15%;
+    h1 {
+      margin-top: 2em;
+      font-size: 0.65 * @h1_font_size;
+    }
 
-      .logo {
-        flex: 1;
-      }
+    h2 {
+      font-size: 0.55 * @h2_font_size;
+    }
+    h3 {
+      font-size: 0.5 * @h3_font_size;
+    }
 
-      img {
-        max-height: 100px;
-        margin: 0 auto;
-      }
+    p,
+    a,
+    li {
+      font-size: 0.5 * @base_font_size;
+      margin: 0.1em 0;
+      color: @background_color;
+    }
+
+    img {
+      margin: 0;
+      padding: 0;
     }
   }
 
