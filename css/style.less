@@ -84,14 +84,11 @@
     flex: 4;
   }
 
-  // Centre the content for a slide.
-  // Put in a div that wraps the entire slide.
-  // Must have another empty div inside it as well.
-  .centered {
+  // Center the content inside a div vertically
+  .v-centered {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 100%;
+    flex-direction: column;
   }
 
   // -------------
@@ -148,5 +145,50 @@
       align-self: flex-end;
       margin: 0;
     }
+  }
+
+  .large {
+    p,
+    ul,
+    ol {
+      font-size: 1.5 * @base_font_size;
+    }
+  }
+
+  .small {
+    p,
+    ul,
+    ol {
+      font-size: 0.5 * @base_font_size;
+    }
+  }
+
+  .emojis {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .emojis li {
+    padding-left: 1em;
+    text-indent: -0.75em;
+  }
+
+  .emojis li.cross::before {
+    content: "❌";
+    padding-right: 0.5em;
+  }
+
+  .rotated {
+    margin-top: 15%;
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+  }
+
+  .shadow {
+    box-shadow: 4px 3px 8px 1px #969696;
+    -webkit-box-shadow: 4px 3px 8px 1px #969696;
   }
 }
