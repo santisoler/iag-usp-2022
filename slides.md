@@ -1,4 +1,9 @@
-<!-- .slide: class="slide-title" data-background-color="#1e1e1e" --> <div class="title"> # Empowering science with open-source software
+<!-- .slide: class="slide-title" data-background-color="#1e1e1e" -->
+
+<div class="title">
+
+# Empowering science with open-source software
+
 ## by Santiago Soler
 
 <hr>
@@ -58,11 +63,11 @@ Slides: <a href="https://santisoler.com/iag-usp-2022">
 santisoler.com/iag-usp-2022
 </a>
 </p>
-<p>
+<p style="margin-top: 0.5em;">
 <i class="fas fa-camera"></i>
 Feel free to screenshot, share and reuse this presentation
 </p>
-<p>
+<p style="margin-top: 0.5em;">
 <i class="fab fa-creative-commons"></i>
 <i class="fab fa-creative-commons-by"></i>
 CC-BY
@@ -612,6 +617,12 @@ pinga-lab/tesseroid-variable-density
 
 ---
 
+### Geoscientific stack
+
+![Logos of geoscientific packages](images/ecosystem.svg) <!-- .element: style="width: 80%" -->
+
+---
+
 <!-- .slide: data-background-image="images/fatiando-legacy.png" data-background-size="contain" -->
 
 # Deprecated <!-- .element: class="fragment rotated" style="color: #fff; padding: 20px; background-color: #d62728; " -->
@@ -916,66 +927,79 @@ do it in community,
 
 ---
 
-# Regular slide
+<!-- .slide: data-background-gradient="linear-gradient(to bottom, #c341b2, #4161c3)" -->
 
-## With subtitles
-
----
-
-# Include math and equations
-
-$$ E = mc^2 $$
+# Future <!-- .element: style="color: white;" -->
 
 ---
 
-## And code
-
-```python
-import numpy as np
-
-x = np.linspace(0, 10, 11)
-y = x ** 2
-```
-
----
-
-# Do you want columns?
+## OSS behind scientific breakthroughs
 
 <div class="container">
 
 <div class="column">
-<img src="images/about.jpg" style="margin-top: 5%; border-radius: 50%; width: 80%;">
+<img src="images/kathy-bouman.jpg" alt="">
 </div>
 
-<div class="col-2">
-<div class="centered">
+<div class="column">
+<img src="images/black-hole.jpg" alt="">
+</div>
 
-* Licenciado en Física (UNR)
-* Estudiante de Doctorado en Geofísica (UNSJ)
-* Becario Doctoral de CONICET
-* Desarrollador de [Fatiando a Terra](https://www.fatiando.org)
-* Miembro de [Computer-Oriented Geoscience Lab](https://www.compgeolab.org)
+<div class="column">
+<img src="images/ingenuity.gif" alt="">
+</div>
 
 </div>
-</div>
+
+
+<div class="footnote">
+
+The Event Horizon Telescope Collaboration (2019). doi: [10.3847/2041-8213/ab0ec7](https://doi.org/10.3847/2041-8213/ab0ec7)
+
+Katherine Bouman, et al. (2016). doi: [10.1109/CVPR.2016.105](https://doi.org/10.1109/CVPR.2016.105)
+
+Ingenuity Helicopter Rotor Blades Unlocked for Flying, JPL, NASA. Public
+domain. Image ID: [PIA24549](https://images.nasa.gov/details-PIA24549)
 
 </div>
 
 ---
 
-# You can add fade-in animations
+## How do I envision the future?
+
+---
 
 <div class="container">
 
-<div class="column fragment fade-in">
+<div class="column flex flex-column justify-center align-center">
+<img src="images/open-source.svg" style="height: 400px; width: auto;">
 
-First element
+Open-source software
 
 </div>
 
-<div class="column fragment fade-in">
+<div class="column flex flex-column justify-center align-center">
+<img src="images/fair.jpg" style="height: 200px; width: auto;">
 
-Second element
+FAIR data
+
+</div>
+
+</div>
+
+<div class="container" style="margin-top: 1em;">
+
+<div class="column flex flex-column justify-center align-center">
+<img src="images/open-access-logo.png" style="height: 200px; width: auto;">
+
+Open-access papers
+
+</div>
+
+<div class="column flex flex-column justify-center align-center">
+<img src="images/open-hardware.svg" style="height: 250px; width: auto;">
+
+Open-hardware
 
 </div>
 
@@ -983,57 +1007,110 @@ Second element
 
 ---
 
-## Even on lists
+## The problem
+
+Poor recognition and funding
+
+<!-- picture of xkcd? -->
+
+---
+
+## What can we do?
+
+- Share your code under open-source licenses <!-- .element: class="fragment" -->
+- Join communities <!-- .element: class="fragment" -->
+- Contribute to projects <!-- .element: class="fragment" -->
+- Be nice to developers <!-- .element: class="fragment" -->
+- Spread the word <!-- .element: class="fragment" -->
+- Value OSS development in applications <!-- .element: class="fragment" -->
+- Fund open-source software development <!-- .element: class="fragment" -->
+
+---
+
+## Learn
+
+![The Carpentries logo](images/TheCarpentries.svg) <!-- .element style="width: 60%" -->
+
+[www.carpentries.org](https://carpentries.org)
+
+---
+
+## Get involved
+
+<div class="container small">
+
+<div class="column">
+
+<img src="images/logos/fatiando-logo.png" style="max-height: 300px; width: auto">
+
+[fatiando.org/community](https://www.fatiando.org/community)
+
+</div>
+
+<div class="column">
+<img src="images/logos/swung.png" style="max-height: 300px; width: auto">
+
+[softwareunderground.org](https://softwareunderground.org/)
+</div>
+
+<div class="column">
+<img src="images/logos/geolatinas-logo-overlay.png" style="max-height: 300px; width: auto">
+
+[geolatinas.weebly.com/get-involved.html](https://geolatinas.weebly.com/get-involved.html)
+</div>
+
+</div>
+
+---
+
+## Contribute
 
 <ul>
-<li class="fragment fade-in">First element</li>
-<li class="fragment fade-in">Second element</li>
-<li class="fragment fade-in">Third element</li>
+<li>No need to be an expert</li>
+<li>Not everything is code (docs, report bugs)</li>
+<li>
+
+Find projects with [Contribute Guidelines](https://github.com/fatiando/community/blob/main/CONTRIBUTING.md)
+
+</li>
+
+<li>
+
+**Best way to learn** software development
+
+</li>
 </ul>
 
 ---
 
-## Highlight current item on list
+<!-- .slide: data-background-color="#2a76dd"  -->
 
-<ol>
-<li class="fragment highlight-current-blue">First element</li>
-<li class="fragment highlight-current-blue">Second element</li>
-<li class="fragment highlight-current-blue">Third element</li>
-</ol>
+<h1 class="fragment" style="margin-bottom: 100px;">
+Explore,
+</h1>
 
----
+<h1 class="fragment" style="margin-bottom: 100px;">
+shape your environment,
+</h1>
 
-# You can put footnotes
+<h1 class="fragment" style="margin-bottom: 100px;">
+do it in community,
+</h1>
 
-<!-- Stretch to the end of the slide -->
-<div class="r-stretch">
-</div>
-
-<div class="footnote">
-
-https://www.blog.pythonlibrary.org/2019/04/11/python-used-to-take-photo-of-black-hole/
-
-</div>
+<h1 class="fragment">
+...and have fun! 🤓
+</h1>
 
 ---
 
-<!-- .slide: data-background-color="#eee" -->
+<!-- .slide: data-background-color="#1e1e1e" -->
 
-## You can change the background color
-
----
-
-## Add quotes
-
-<blockquote>
-This is a quote
-</blockquote>
+# Thank you!
 
 ---
 
-# Contacto
+# Contact me
 
-<div>
 
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-envelope"></i>
@@ -1041,34 +1118,24 @@ This is a quote
 [santiago.r.soler@gmail.com](mailto:santiago.r.soler@gmail.com)
 
 </li>
-<li><i class="fa-li fab fa-twitter"></i>
-
-[@santirsoler](https://twitter.com/santirsoler)
-
-</li>
 <li><i class="fa-li fa fa-globe-americas"></i>
 
 [www.santisoler.com](https://www.santisoler.com)
 
 </li>
+<li><i class="fa-li fab fa-github"></i>
+
+[@santisoler](https://github.com/santisoler)
+
+</li>
+<li><i class="fa-li fab fa-twitter"></i>
+
+[@santirsoler](https://twitter.com/santirsoler)
+
+</li>
+<li><i class="fa-li fab fa-mastodon"></i>
+
+[@santisoler@scicomm.xyz](https://scicomm.xyz/@santisoler)
+
+</li>
 </ul>
-
-</div>
-
----
-
-<!-- .slide: class="slide-license" -->
-
-<p class="license-icons">
-<i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
-</p>
-
-El contenido de esta presentación está disponible bajo
-
-[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
-
----
-
-<!-- .slide: class="slide-title" -->
-
-# Muchas gracias
