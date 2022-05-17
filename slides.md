@@ -1,9 +1,4 @@
-<!-- .slide: class="slide-title" data-background-color="#1e1e1e" -->
-
-<div class="title">
-
-# Empowering science with open-source software
-
+<!-- .slide: class="slide-title" data-background-color="#1e1e1e" --> <div class="title"> # Empowering science with open-source software
 ## by Santiago Soler
 
 <hr>
@@ -94,11 +89,7 @@ CC-BY
 <img src="images/about.jpg" style="margin-top: 5%; border-radius: 50%; width: 80%;">
 </div>
 
-
-<div class="col-2">
-
 <div class="column v-centered">
-
 <ul>
 <li class="fragment fade-in">Physicist 👨🏼‍🔬</li>
 <li class="fragment fade-in">(recently) PhD in Geophysics 💅🏼</li>
@@ -107,17 +98,9 @@ CC-BY
 </li>
 <li class="fragment fade-in">Member of the <a href="https://www.compgeolab.org">Computer-Oriented Geoscience Lab</a> 🧪🖥️ </li>
 </ul>
-
-</div>
 </div>
 
 </div>
-
----
-
-<!-- .slide: data-auto-animate -->
-
-# What is this talk about?
 
 ---
 
@@ -211,10 +194,6 @@ Source: [jornadasdefisica.wordpress.com](https://jornadasdefisica.wordpress.com/
 
 ---
 
-### 🏛️ University as a place we could shape ♻️
-
----
-
 <!-- .slide: data-background-color="#1e1e1e"  -->
 
 ### Seminars organized by students
@@ -260,6 +239,10 @@ Source: [jornadasdefisica.wordpress.com](https://jornadasdefisica.wordpress.com/
 
 ---
 
+### 🏛️ University as a place we could shape ♻️
+
+---
+
 <!-- .slide: data-background-color="#2a76dd"  -->
 
 <h1 class="fragment" style="margin-bottom: 100px;">
@@ -280,32 +263,51 @@ do it in community,
 
 ---
 
+## Fast-forward
+
+## \>\>\>
+
+---
+
 <!-- .slide: data-background-color="#1e1e1e" data-background-video="images/sanjuan-zoom-in.mp4" data-background-size="contain" -->
 
-<div class="r-stack">
-  <img class="fragment" src="images/igsv.jpg" style="width: 73%">
-  <img class="fragment" src="images/potential-fields.jpg" style="width: 70%">
+---
+
+## Licentiate Thesis
+
+<div class="container">
+
+<div class="col-2">
+<img src="images/igsv.jpg" style="width: 100%">
+</div>
+
+<div class="column v-centered align-center">
+<p>
+Instituto Geofísico Sismológico Volponi
+</p>
+<img src="images/logos/igsv.svg" style="width: 35%">
+<img src="images/logos/unsj.svg" style="width: 35%">
+</div>
+
 </div>
 
 ---
 
-### Licentiate Thesis
+### Gravity + magnetics
 
-<img src="images/logos/igsv.svg" style="width: 15%">
-
-Gravity + magnetics
+<img src="images/potential-fields.jpg" style="width: 70%">
 
 ---
 
 <!-- .slide: data-background-color="#1e1e1e" data-auto-animate -->
 
-### Expensive privative software in potential fields
+### Expensive privative software
 
 ---
 
 <!-- .slide: data-auto-animate data-background-color="#1e1e1e" -->
 
-### Expensive privative software in potential fields
+### Expensive privative software
 
 <ul class="emojis">
 <li class="fragment cross">Reproducible science</li>
@@ -403,11 +405,21 @@ leouieda.com
 
 ---
 
-🎉 Finished Licentiate Thesis 🎉
+Python <!-- .element: class="fragment" -->
+
+\+ Scientific stack <!-- .element: class="fragment" -->
+
+\+ Fatiando <!-- .element: class="fragment" -->
+
+<hr class="fragment" style="width: 50%">
+
+🎉 Finished Licentiate Thesis 🎉 <!-- .element: class="fragment" -->
 
 ---
 
-...and first contributions to Fatiando
+Meanwhile...
+
+first contributions to Fatiando <!-- .element: class="fragment" -->
 
 ---
 
@@ -415,13 +427,13 @@ leouieda.com
 
 ---
 
-<!-- .slide: data-auto-animate -->
+<!-- .slide: data-auto-animate data-background-color="#1e1e1e" -->
 
 # PhD in Geophysics
 
 ---
 
-<!-- .slide: data-auto-animate -->
+<!-- .slide: data-auto-animate data-background-color="#1e1e1e" -->
 
 # PhD in Geophysics
 
@@ -456,20 +468,82 @@ Modelling tesseroids with variable densities
 
 ---
 
+<!-- .slide: data-auto-animate -->
+
 ### What is a tesseroid?
 
 ---
 
+<!-- .slide: data-auto-animate -->
+
+### What is a tesseroid?
+
+![Cartesian axes showing a tesseroid](images/tesseroid-definition.svg) <!-- .element: style="width: 40%" -->
+
+---
+
+<!-- .slide: data-auto-animate -->
+
 ### The challenge
 
-<!-- Include the same equations from the thesis -->
+---
+
+<!-- .slide: data-auto-animate -->
+
+### The challenge
+
+$$
+    V(\mathbf{p}) = G \rho
+        \int\limits_{r_1}^{r_2}
+        \int\limits_{\lambda_1}^{\lambda_2}
+        \int\limits_{\phi_1}^{\phi_2}
+        \frac{\kappa}{\left\lVert \mathbf{p} - \mathbf{q} \right\rVert}
+        \text{d} r' \text{d} \lambda' \text{d} \phi',
+$$
+
+❌ No analytical solution
+
+✅ Numerical approximation <!-- .element class="fragment" -->
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+### The challenge
+
+$$
+    V(\mathbf{p}) = G
+        \int\limits_{r_1}^{r_2}
+        \int\limits_{\lambda_1}^{\lambda_2}
+        \int\limits_{\phi_1}^{\phi_2}
+        \frac{
+            {\color{orange} \rho(r')} \kappa
+        }{
+            \left\lVert \mathbf{p} - \mathbf{q} \right\rVert
+        }
+        \text{d} r' \text{d} \lambda' \text{d} \phi',
+$$
+
+<p>
+Open problem:
+<span style="color: orange">
+Variable density tesseroids
+</span>
+</p>
+
+---
+
+After some work... 😓
 
 ---
 
 ### Solved it!
 
-Using existing tesseroids in `fatiando`
-<br> <span class="fragment">... and built on top</span>
+<div class="fragment">
+
+**New method:** built on top of existing tesseroids in Fatiando
+
+</div>
 
 ---
 
@@ -680,7 +754,13 @@ Reference <b>ellipsoids</b> for <b>normal gravity</b>
 
 ---
 
-<!-- .slide: data-background-color="#1e1e1e" -->
+<!-- .slide: data-background-color="#1e1e1e" data-auto-animate -->
+
+### Variable density tesseroids in Harmonica
+
+---
+
+<!-- .slide: data-background-color="#1e1e1e" data-auto-animate -->
 
 ### Variable density tesseroids in Harmonica
 
@@ -736,6 +816,24 @@ Empower science with OSS...
 ...empower OSS with science <!-- .element: class="fragment" -->
 
 </div>
+
+---
+
+Similar story with following research:
+
+**Gradient boosted equivalent sources** <!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: data-background-image="images/soler2021.png" data-background-size="contain" -->
+
+---
+
+<!-- .slide: data-background-image="images/harmonica-gradient-boosted-eqs.png" data-background-size="contain" -->
+
+---
+
+## 🎉 Finished the PhD 🎉
 
 ---
 
