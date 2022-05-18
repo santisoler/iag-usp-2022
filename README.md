@@ -4,7 +4,7 @@ by [Santiago Soler](https://www.santisoler.com)
 
 **Slides:** https://www.santisoler.com/iag-usp-2022
 
-**Recording:** Coming soon...
+**Live streaming:** https://www.youtube.com/c/geofisicaUSP/live
 
 
 ## About
