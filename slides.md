@@ -1029,6 +1029,7 @@ Dependency by XKCD: https://xkcd.com/2347
 ## What can we do?
 
 - Share your code under open-source licenses <!-- .element: class="fragment" -->
+- Cite the software you use <!-- .element: class="fragment" -->
 - Value OSS development in applications <!-- .element: class="fragment" -->
 - Fund open-source software development <!-- .element: class="fragment" -->
 
