@@ -397,7 +397,7 @@ leouieda.com
 </div>
 <div class="col-2 v-centered">
 
-- BSc in Geophysics (USP)
+- BSc and MSc in Geophysics (USP)
 - PhD in Geophysics (Observatório Nacional)
 - Lecturer at the University of Liverpool
 - OSS developer:
