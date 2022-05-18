@@ -1,7 +1,23 @@
-name: talk
+name: iag-usp-2022-talk
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python==3.9
+  # for serving the slides
   - livereload==2.6.3
+  # for running the notebook
+  - pip
+  - jupyter
+  - numpy<=1.21
+  - matplotlib
+  - pandas
+  - xarray
+  - netcdf4
+  - pyproj
+  - verde==1.7.*
+  - ensaio==0.4.*
+  - boule==0.3.*
+  - harmonica==0.4.*
+  - pygmt==0.3.1
+  - gmt==6.1.1
