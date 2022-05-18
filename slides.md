@@ -94,7 +94,7 @@ CC-BY
 <img src="images/about.jpg" style="margin-top: 5%; border-radius: 50%; width: 80%;">
 </div>
 
-<div class="column v-centered">
+<div class="col-2 v-centered">
 <ul>
 <li class="fragment fade-in">Physicist 👨🏼‍🔬</li>
 <li class="fragment fade-in">(recently) PhD in Geophysics 💅🏼</li>
@@ -542,7 +542,7 @@ After some work... 😓
 
 ---
 
-### Solved it!
+### Solved it! 🎉
 
 <div class="fragment">
 
@@ -704,25 +704,6 @@ ML-based point data processing and <b>gridding</b>
 
 <div class="container small" style="margin-top: 4%">
 
-<!-- Harmonica -->
-<div class="column fragment">
-
-<a href="http://www.fatiando.org/harmonica">
-<img class="project-logo center-block" src="images/harmonica-logo.svg">
-</a>
-
-Processing and modeling <br> <b>gravity & magnetic</b> data
-
-<ul class="fa-ul project-icons">
-<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-   <a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a>
-</li>
-<li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
-   Ready for use but still changing
-</li>
-</ul>
-
-</div>
 <div class="column fragment">
 
 <!-- Boule -->
@@ -757,6 +738,26 @@ Reference <b>ellipsoids</b> for <b>normal gravity</b>
 </li>
 <li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
     Functional but still evolving
+</li>
+</ul>
+
+</div>
+
+<!-- Harmonica -->
+<div class="column fragment">
+
+<a href="http://www.fatiando.org/harmonica">
+<img class="project-logo center-block" src="images/harmonica-logo.svg">
+</a>
+
+Processing and modeling <br> <b>gravity & magnetic</b> data
+
+<ul class="fa-ul project-icons">
+<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+   <a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a>
+</li>
+<li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
+   Ready for use but still changing
 </li>
 </ul>
 
@@ -833,6 +834,8 @@ Empower science with OSS...
 Similar story with following research:
 
 **Gradient boosted equivalent sources** <!-- .element: class="fragment" -->
+
+(or how to interpolate 2 million gravity data points) <!-- .element: class="fragment" -->
 
 ---
 
@@ -1013,15 +1016,19 @@ Poor recognition and funding
 
 <!-- picture of xkcd? -->
 
+![Comic of XKCD](images/xkcd.png) <!-- .element: style="width: 25%" -->
+
+<div class="footnote">
+
+Dependency by XKCD: https://xkcd.com/2347
+
+</div>
+
 ---
 
 ## What can we do?
 
 - Share your code under open-source licenses <!-- .element: class="fragment" -->
-- Join communities <!-- .element: class="fragment" -->
-- Contribute to projects <!-- .element: class="fragment" -->
-- Be nice to developers <!-- .element: class="fragment" -->
-- Spread the word <!-- .element: class="fragment" -->
 - Value OSS development in applications <!-- .element: class="fragment" -->
 - Fund open-source software development <!-- .element: class="fragment" -->
 
