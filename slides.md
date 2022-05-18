@@ -930,6 +930,32 @@ do it in community,
 
 ---
 
+<!-- .slide: data-background-image="images/demo-time.gif" data-background-color="#1e1e1e" -->
+
+<h1 style="text-shadow: 4px 4px #1e1e1e;">
+Demo Time!
+</h1>
+
+---
+
+## Full Tutorial at Transform21
+
+
+<iframe
+    width="1280"
+    height="720"
+    src="https://www.youtube-nocookie.com/embed/0bxZcCAr6bw"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+></iframe>
+
+**Video:** https://youtu.be/0bxZcCAr6bw
+
+**Notebook:** https://github.com/fatiando/tutorials
+
+---
+
 <!-- .slide: data-background-gradient="linear-gradient(to bottom, #c341b2, #4161c3)" -->
 
 # Future <!-- .element: style="color: white;" -->
