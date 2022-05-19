@@ -856,6 +856,10 @@ Similar story with following research:
 
 ---
 
+After some more work... 😓
+
+---
+
 ## 🎉 Finished the PhD 🎉
 
 ---
