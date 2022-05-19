@@ -276,6 +276,15 @@ do it in community,
 
 <!-- .slide: data-background-color="#1e1e1e" data-background-video="images/sanjuan-zoom-in.mp4" data-background-size="contain" -->
 
+<div class="r-stack">
+  <img class="fragment" src="images/mercedario.jpg" style="width: 80%">
+  <img class="fragment" src="images/arroyo-turquesa.jpg" style="width: 38%">
+  <img class="fragment" src="images/agua-negra.jpg" style="width: 70%">
+  <img class="fragment" src="images/rock-climbing.jpg" style="width: 39%">
+  <img class="fragment" src="images/eclipse.jpg" style="width: 40%">
+</div>
+
+
 ---
 
 ## Licentiate Thesis
