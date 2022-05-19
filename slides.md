@@ -1126,6 +1126,69 @@ Find projects with [Contribute Guidelines](https://github.com/fatiando/community
 
 ---
 
+<!-- .slide: data-background-gradient="linear-gradient(to bottom, #c341b2, #4161c3)" -->
+
+# My future: <br> Postdoc <!-- .element: style="color: white;" -->
+
+---
+
+## Gravity and magnetics + Carbon capture
+
+<div class="container medium">
+
+<div class="column flex flex-column align-center justify-center">
+
+<img src="images/logos/ubc.png" alt="UBC logo" style="width: 35%">
+
+Geophysical Inversion Facilty <br> https://gif.eos.ubc.ca/
+
+</div>
+
+
+<div class="column flex flex-column align-center justify-center">
+
+
+![Profile picture of Lindsey](images/lindsey.jpg) <!-- .element: style="width: 50%; border-radius: 50%;" -->
+
+Lindsey Heagy
+
+<ul class="fa-ul">
+
+<li>
+<i class="fa-li fas fa-globe fa-fw"></i>
+<a href="https://lindseyjh.ca/">lindseyjh.ca</a>
+</li>
+
+<li>
+<i class="fa-li fab fa-github fa-fw"></i>
+<a href="https://github.com/lheagy">lheagy</a>
+</li>
+
+<li>
+<i class="fa-li fab fa-twitter fa-fw"></i>
+<a href="https://twitter.com/lindsey_jh">lindsey_jh</a>
+</li>
+
+</ul>
+
+</div>
+
+<div class="column flex flex-column align-center justify-center">
+
+
+<img src="images/logos/simpeg-logo.png" alt="Simpeg logo" style="width: 100%; height: auto;">
+
+\+ <!-- .element: style="margin: 0" -->
+
+<img src="images/logos/fatiando-logo.png" alt="Fatiando logo" style="width: 50%; height: auto;">
+
+
+</div>
+
+</div>
+
+---
+
 <!-- .slide: data-background-color="#2a76dd"  -->
 
 <h1 class="fragment" style="margin-bottom: 100px;">
